@@ -37,7 +37,7 @@ const add = () => {
     Nombre:Nombre,
     NoCuenta:NoCuenta,
     Direccion:Direccion,
-    Contacto:Contacto,  
+    Contacto:Contacto,
     TelContacto:TelContacto,
     Procedencia:Procedencia,
     Carrera:Carrera,
@@ -58,10 +58,10 @@ const add = () => {
   return(
 
   <form >
-    <img src="logosunam.png" alt="HTML5 Icon" width="150" height="150"></img>
+    <img src="./logosunam.png" alt="HTML5 Icon" width="150" height="150"></img>
     <img src="CARATCUESTIONARIO.png" alt="HTML5 Icon" width="400" height="125"></img>
     <img src="dgas.png" alt="HTML5 Icon" width="150" height="150"></img>
-    <label>Nombre<input type="text" onChange={(event)=>{SetNombre(event.target.value);}}/></label>
+    <label>Nombre prueba<input type="text" onChange={(event)=>{SetNombre(event.target.value);}}/></label>
     <label>Paterno<input type="text"  onChange={(event)=>{setPaterno(event.target.value);}}/></label>
     <label>Materno<input type="text"  onChange={(event)=>{setMaterno(event.target.value);}}/></label>
     <label>No. Cuenta<input type="text"  onChange={(event)=>{setNoCuenta(event.target.value);}}/></label>

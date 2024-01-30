@@ -1,0 +1,199 @@
+ p {
+  text-align: left;
+  font-family:'Open Sans Condensed', sans-serif;
+  width: 200px;
+}
+
+App {
+  Display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+ }
+ .datos {
+   Display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 40%;
+   align-items: center;
+  }
+ 
+  .datos input {
+   width: 600px;
+   height: 80px;
+   font-size: 20px;
+   padding-left: 10px;
+   border-radius: 5px;
+   margin: 5px;
+ }
+ 
+ .datos button {
+   width: 420px;
+   height: 50px;
+   font-size: 20px;
+   border-radius: 5px;
+   
+ }
+ 
+ 
+ 
+ body {
+   margin: 0;
+   width: 90vw;
+   height: 100vh;
+   background: #c4c4d1;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   place-items: center;
+   overflow: hidden;
+   font-family: poppins;
+ }
+ 
+ table {
+   margin: auto;
+ }
+ 
+ form {
+   background: #795704;
+   @include glassmorphism();
+   border-radius: 3px;
+ }
+
+ .container {
+   position: relative;
+   width: 350px;
+   height: 500px;
+   border-radius: 20px;
+   padding: 40px;
+   box-sizing: border-box;
+   background: #ecf0f3;
+   box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+ }
+ 
+ .brand-logo {
+   height: 100px;
+   width: 100px;
+   background: url("logosunam.png");
+   margin: auto;
+   border-radius: 50%;
+   box-sizing: border-box;
+   box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+ }
+ 
+ .brand-title  {
+   margin-top: 10px;
+   font-weight: 900;
+   font-size: 1.8rem;
+   color: #1DA1F2;
+   letter-spacing: 1px;
+ }
+ 
+inputs {
+   text-align: left;
+   margin-top: 30px;
+ }
+ 
+ label, input, button {
+   display: block;
+   width: 600px;
+   padding: 0;
+   border: none;
+   outline: none;
+   box-sizing: border-box;
+ }
+ 
+ label {
+   margin-bottom: 2px;
+   align-items: left;
+   font-family: Arial, Helvetica, sans-serif;
+   font-stretch: expanded;
+   font-size: 20px;
+ }
+ 
+ label:nth-of-type(2) {
+   margin-top: 2px;
+ }
+ 
+ input::placeholder {
+   color: gray;
+ }
+ 
+ input {
+   background: #ecf0f3;
+   padding: 10px;
+   padding-left: 20px;
+   height: 40px;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10px;
+   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+ }
+ 
+ select {
+     width: 300px;
+     background: #ecf0f3;
+     padding: 10px;
+     padding-left: 20px;
+     height: 40px;
+     font-size: 14px;
+     border-radius: 10px;
+     box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
+ 
+  textarea {
+   width: 600px;
+   background: #ecf0f3;
+   padding: 10px;
+   padding-left: 2px;
+   height: 30px;
+   font-size: 14px;
+   border-radius: 10px;
+   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+ }
+ button {
+   color: white;
+   margin-top: 20px;
+   background: #020d50;
+   height: 40px;
+   border-radius: 20px;
+   cursor: pointer;
+   font-weight: 900;
+   transition: 0.5s;
+   justify-content: center;
+ }
+ 
+ button:hover {
+   box-shadow: none;
+ }
+ 
+ a {
+   position: absolute;
+   font-size: 8px;
+   bottom: 4px;
+   right: 4px;
+   text-decoration: none;
+   color: black;
+   background: yellow;
+   border-radius: 10px;
+   padding: 2px;
+ }
+ 
+ h1 {
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+ 
+ form {
+   position: fixed;
+   left: 80px;
+   top: 20px;
+   margin-left: 15px;
+   width:77%;
+   height:100%;
+   margin-right: 25px;
+   justify-content: center;
+ }  
+ 
